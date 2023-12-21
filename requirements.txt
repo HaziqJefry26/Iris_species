@@ -4,5 +4,5 @@ pandas
 seaborn
 scikit-learn
 numpy
-tensorflow==2.7.0
+TensorFlow==2.7.0
 Keras
