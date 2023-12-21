@@ -3,6 +3,5 @@ streamlit
 pandas
 seaborn
 scikit-learn
-pip install tensorflow
 numpy
-TensorFlow
+Keras
