@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
-import load_model
-#import pickle
+from tensorflow.keras.models import load_model#import pickle
 #import seaborn as sns
 
 st.write("# Simple Iris Flower Prediction App")
