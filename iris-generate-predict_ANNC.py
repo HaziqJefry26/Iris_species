@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import pickle
-from tensorflow.keras.models import load_model
 #import seaborn as sns
 
 st.write("# Simple Iris Flower Prediction App")
@@ -26,9 +25,8 @@ df = user_input_features()
 st.subheader('User Input parameters')
 st.write(df)
 
-#loaded_model = pickle.load(open("Iris_ANNC.h5", "rb")) #rb: read binary
-loaded_model = load_model("Iris_ANNC.h5")
-#loaded_scaler = pickle.load(open("scaler_Iris.pkl", "rb"))
+loaded_model = pickle.load(open("Iris_ANNC.h5", "rb")) #rb: read binary
+#loaded_model = load_model("Iris_ANNC.h5")
 
 new_pred = loaded_model.predict(df) # testing (examination)
 prediction_proba = loaded_model.predict_proba(df)
