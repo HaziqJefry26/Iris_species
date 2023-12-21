@@ -4,4 +4,4 @@ pandas
 seaborn
 scikit-learn
 numpy
-tensorflow
+ensorflow==2.7.0
