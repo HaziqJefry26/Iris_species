@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import pickle
-import Keras
 #import seaborn as sns
 
 st.write("# Simple Iris Flower Prediction App")
