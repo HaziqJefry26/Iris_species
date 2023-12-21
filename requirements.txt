@@ -7,3 +7,4 @@ keras.models
 keras.layers
 keras.optimizers
 numpy
+keras
